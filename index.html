@@ -15,5 +15,40 @@
     </style>
     <!---css end-->
 <h1 id="title">Mavs Unblocked Games</h1>
+<br>
+<form id="searchForm" onsubmit="return false;">
+    <input id="searchgmes" placeholder="Search Games" class="searchbar">
+  </form>
+
+  <!-----js-->
+  <script>
+    document.getElementById('searchApps').addEventListener('input', function(event) {
+      const query = this.value.toLowerCase();
+      const links = document.getElementsByClassName('search-results')[0].getElementsByTagName('a');
+      let foundResults = false;
+
+      for (let i = 0; i < links.length; i++) {
+        const link = links[i];
+        const linkText = link.innerText.toLowerCase();
+
+        if (linkText.includes(query)) {
+          link.style.display = 'block';
+          foundResults = true;
+        } else {
+          link.style.display = 'none';
+        }
+      }
+
+      if (!foundResults) {
+        const message = document.getElementById('searchMessage');
+        message.innerText = 'No Games Found.';
+        message.style.display = 'block';
+      } else {
+        const message = document.getElementById('searchMessage');
+        message.style.display = 'none';
+      }
+    });
+  </script>
+<!------js end-->
 </body>
 </html>
