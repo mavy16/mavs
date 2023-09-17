@@ -6,7 +6,7 @@
 }
 
 body{
-    background-color: #f5ba14;
+    background-color: #EDA306;
 }
 
 .search-bar input {
@@ -15,7 +15,7 @@ body{
     height: 20x;
     width: 400px;
     color: white;
-    background-color: #ffd35a;
+    background-color: #EDA306;
     font-family: "Montserrat", sans-serif;
     text-align: center;
     border: transparent;
@@ -26,10 +26,10 @@ body{
   #placholder{
     color: green;
   }
-
+  
   button{
     transition: all 0.25s ease-in-out;
-    background-color: #EDA306;
+    background-color: #f5ba14;
     border-radius: 25px;
     margin-left: auto;
     margin: right 20px;
