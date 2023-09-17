@@ -1,1 +1,7 @@
-
+{
+    "name": "biology",
+    "version": "1.0.0",
+    "description": "biology help",
+    "author": "maverick",
+    "keywords": ["scinece, biology, life"]
+}
