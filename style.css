@@ -8,3 +8,17 @@
 body{
     background-color: #f5ba14;
 }
+
+.search-bar input {
+    margin: 10px;
+    padding:25px;
+    height: 40px;
+    width: 400px;
+    color: white;
+    background-color: rgba(7, 7, 7, 0.692);
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+    border: transparent;
+    border-radius: 15px;
+    outline: none;
+  }
