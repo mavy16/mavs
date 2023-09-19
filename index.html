@@ -43,15 +43,18 @@
   <p>Slope 2</p>
    </button>
    </a>
+   <br>
    <button>
     <a  href="/gmes/Madalin cars 2/">
-    <img src="/gmes/Madalin cars 2/img/logo.jpg
-  <p>Madalin Stunt cars 2</p>
+    <img src="/gmes/Madalin cars 2/img/logo.jpg">
+  <p>Madalin Cars 2</p>
    </button>
+   </a>
+ 
 
   <!-----js-->
   <script>
-    document.getElementById('searchApps').addEventListener('input', function(event) {
+    document.getElementById('searchgmes').addEventListener('input', function(event) {
       const query = this.value.toLowerCase();
       const links = document.getElementsByClassName('search-results')[0].getElementsByTagName('a');
       let foundResults = false;
@@ -69,7 +72,7 @@
       }
 
       if (!foundResults) {
-        const message = document.getElementById('searchMessage');
+        const message = document.getElementById('');
         message.innerText = 'No Games Found.';
         message.style.display = 'block';
       } else {
