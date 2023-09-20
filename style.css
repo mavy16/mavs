@@ -1,12 +1,12 @@
 #title{
     text-align: center ;
     font-family: 'Quicksand', sans-serif;
-    color: rgb(0, 255, 0);
+    color: green;
     font-size: 0.5in;
 }
 
 body{
-    background-color: #000000;
+    background-color: #eda306;
 }
 
 .search-bar input {
@@ -14,7 +14,7 @@ body{
     padding:25px;
     height: 50x;
     width: 400px;
-    color: rgb(0, 255, 0);
+    color: green;
     background-color: #000000;
     font-family: 'Quicksand', sans-serif;
     text-align: center;
@@ -24,12 +24,12 @@ body{
   }
 
   #placholder{
-    color: rgb(0, 255, 0);
+    color: green
   }
   
   button{
     transition: all 0.25s ease-in-out;
-    background-color: #ffffff;
+    background-color: #f5ba14;
     border-radius: 25px;
     margin-left: auto;
     margin: right 20px;
@@ -45,7 +45,7 @@ body{
   
   p{
     font-family: 'Quicksand', sans-serif;
-    color:rgb(0, 255, 0);
+    color: green;
     font-size: 30px;
   }
 
@@ -71,6 +71,6 @@ body{
     #credits{
       text-align: center;
       font-family: 'Quicksand', sans-serif;
-      color: black;
+      color: rgb(52, 79, 215);
       font-size: 0.1px;
     }
