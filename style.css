@@ -71,6 +71,24 @@ body{
     #credits{
       text-align: center;
       font-family: 'Quicksand', sans-serif;
-      color: rgb(52, 79, 215);
+      color: rgb(255, 255, 255);
       font-size: 0.1px;
     }
+/* Navigation Bar CSS */
+.navbar {
+  overflow: hidden;
+  background-color: #333; /* Change the background color as desired */
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: yellow;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  background-color: #black; /* Change the hover background color as desired */
+}
