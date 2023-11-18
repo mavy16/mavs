@@ -1,12 +1,12 @@
 #title{
     text-align: center ;
     font-family: 'Quicksand', sans-serif;
-    color: green;
+    color: black;
     font-size: 0.5in;
 }
 
 body{
-    background-color: #eda306;
+    background-color: red;
 }
 
 .search-bar input {
@@ -14,7 +14,7 @@ body{
     padding:25px;
     height: 50x;
     width: 400px;
-    color: green;
+    color: black;
     background-color: #000000;
     font-family: 'Quicksand', sans-serif;
     text-align: center;
@@ -24,12 +24,12 @@ body{
   }
 
   #placholder{
-    color: green
+    color: black
   }
   
   button{
     transition: all 0.25s ease-in-out;
-    background-color: #f5ba14;
+    background-color: red;
     border-radius: 25px;
     margin-left: auto;
     margin: right 20px;
@@ -45,7 +45,7 @@ body{
   
   p{
     font-family: 'Quicksand', sans-serif;
-    color: green;
+    color: black;
     font-size: 30px;
   }
 
@@ -83,7 +83,7 @@ body{
 .navbar a {
   float: left;
   display: block;
-  color: yellow;
+  color: red;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
