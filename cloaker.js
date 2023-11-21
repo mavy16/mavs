@@ -18,7 +18,7 @@ if (!inFrame && !navigator.userAgent.includes("Firefox")) {
 
         doc.title = "Canvas-Dashboard"
         link.rel = "icon";
-        link.href = "https://upload.wikimedia.org/wikipedia/commons/5/59/Google_Classroom_Logo.png";
+        link.href = "https://www.cleanpng.com/free/canvas-lms.html";
         iframe.src = location.href
         style.position = "fixed"
         style.top = style.bottom = style.left = style.right = 0
