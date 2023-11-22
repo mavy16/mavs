@@ -18,25 +18,15 @@
         <button onclick="setTheme('theme vscode')">theme vscode</button>
     </div>
     <div class="content">
-        <p>THEMES!!!!.</p>
-        <p class="theme baja-blast.css"
-        >body
-            [data-theme="baja-blast"] {
-            --background: #3b8680;
-            --primary: #225450;
-            --text: white;
-            --text-inverse: white;
-            --font: "Roboto";
-          } </p>
+        <p>THEMES</p>
         <p class="theme blizzard"
-        >body
-            [data-theme="blizzard"] {
-            --background: #d8d8d8;
-            --primary: #c5c5c5;
-            --text: black;
-            --text-inverse: black;
-            --font: "Roboto";
-          } </p>
+        body[data-theme="blizzard"] {
+          --background: #d8d8d8;
+          --primary: #c5c5c5;
+          --text: black;
+          --text-inverse: black;
+          --font: "Roboto";
+        } </p>
         <p class="theme connection"
         body[data-theme="connection"] {
             --background: #1c1b29;
