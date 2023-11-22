@@ -1,0 +1,7 @@
+ body[data-theme="hacker"] {
+    --background: #090909;
+    --primary: #232323;
+    --text: #7de38d;
+    --text-inverse: #7de38d;
+    --font: "Ubuntu Mono";
+  }

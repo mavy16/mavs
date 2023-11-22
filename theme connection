@@ -1,0 +1,7 @@
+ body[data-theme="connection"] {
+    --background: #1c1b29;
+    --primary: #43b581;
+    --text: #43b581;
+    --text-inverse: #1c1b29;
+    --font: "Roboto";
+  }

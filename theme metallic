@@ -1,0 +1,7 @@
+body[data-theme="metallic"] {
+    --background: #171717;
+    --primary: #004953;
+    --text: white;
+    --text-inverse: white;
+    --font: "Noto Sans";
+  }

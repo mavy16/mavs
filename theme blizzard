@@ -1,0 +1,7 @@
+body[data-theme="blizzard"] {
+    --background: #d8d8d8;
+    --primary: #c5c5c5;
+    --text: black;
+    --text-inverse: black;
+    --font: "Roboto";
+  }

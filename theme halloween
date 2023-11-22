@@ -1,0 +1,7 @@
+ body[data-theme="halloween"] {
+    --background: #13171f;
+    --primary: #e48500;
+    --text: #e48500;
+    --text-inverse: black;
+    --font: "Nosifer";
+  }

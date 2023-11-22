@@ -1,0 +1,11 @@
+body[data-theme="echo"] {
+    --background: #1c1c1c;
+    --primary: #4caf50;
+    --text: white;
+    --text-inverse: black;
+    --font: "Noto Sans";
+  }
+  
+  body[data-theme="echo"] .nav {
+    box-shadow: 0 5px 200px var(--primary);
+  }

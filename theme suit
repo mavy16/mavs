@@ -1,0 +1,7 @@
+body[data-theme="suit"] {
+    --background: #0c0c0c;
+    --primary: #ff2e4e;
+    --text: white;
+    --text-inverse: white;
+    --font: "Roboto";
+  }

@@ -1,0 +1,7 @@
+body[data-theme="swamp"] {
+    --background: #006072;
+    --primary: #15fc95;
+    --text: white;
+    --text-inverse: black;
+    --font: "Roboto";
+  }

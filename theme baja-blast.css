@@ -1,0 +1,8 @@
+body[data-theme="baja-blast"] {
+    --background: #3b8680;
+    --primary: #225450;
+    --text: white;
+    --text-inverse: white;
+    --font: "Roboto";
+  }
+  

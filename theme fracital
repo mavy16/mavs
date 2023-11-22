@@ -1,0 +1,7 @@
+body[data-theme="fracital"] {
+    --background: #222;
+    --primary: #333;
+    --text: #f971e4;
+    --text-inverse: #f971e4;
+    --font: "Roboto";
+  }

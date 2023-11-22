@@ -1,0 +1,7 @@
+ body[data-theme="pod"] {
+    --background: #161616;
+    --primary: #ffb703;
+    --text: white;
+    --text-inverse: #161616;
+    --font: "Roboto";
+  }

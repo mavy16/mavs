@@ -1,0 +1,48 @@
+<body>
+    <div>
+        <button onclick="setTheme('default')">style.css</button>
+        <button onclick="setTheme('theme baja-blast.css')">theme baja-blast.css</button>
+        <button onclick="setTheme('theme blizzard')">theme blizzard</button>
+        <button onclick="setTheme('theme connection')">theme connection</button>
+        <button onclick="setTheme('theme dante')">theme dante</button>
+        <button onclick="setTheme('theme echo')">theme echo</button>
+        <button onclick="setTheme('theme fracital)">theme fracital</button>
+        <button onclick="setTheme('theme hacker')">theme hacker</button>
+        <button onclick="setTheme('theme light')">theme light</button>
+        <button onclick="setTheme('theme metallic')">theme metallic</button>
+        <button onclick="setTheme('theme nord')">theme nord</button>
+        <button onclick="setTheme('theme pod')">theme pod</button>
+        <button onclick="setTheme('theme halloween')">theme halloween</button>
+        <button onclick="setTheme('theme suit')">theme suit</button>
+        <button onclick="setTheme('theme swamp')">theme swamp</button>
+        <button onclick="setTheme('theme vscode')">theme vscode</button>
+    </div>
+    <div class="content">
+        <p>THEMES!!!!.</p>
+        <p class="theme baja-blast.css"
+        >body
+            [data-theme="baja-blast"] {
+            --background: #3b8680;
+            --primary: #225450;
+            --text: white;
+            --text-inverse: white;
+            --font: "Roboto";
+          }</p>
+        <p class="theme blizzard"
+        >body
+            [data-theme="blizzard"] {
+            --background: #d8d8d8;
+            --primary: #c5c5c5;
+            --text: black;
+            --text-inverse: black;
+            --font: "Roboto";
+          }</p>
+    </div>
+
+    <script>
+        function setTheme(themeName) {
+            document.getElementById('theme-style').href = themeName + '-theme.css';
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,7 @@
+body[data-theme="vscode"] {
+    --background: #1f1f1f;
+    --primary: #0078d4;
+    --text: white;
+    --text-inverse: white;
+    --font: "Roboto";
+  }

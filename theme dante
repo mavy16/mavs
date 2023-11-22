@@ -1,0 +1,7 @@
+body[data-theme="dante"] {
+    --background: #131313;
+    --primary: #e4ff8b;
+    --text: white;
+    --text-inverse: black;
+    --font: "Roboto";
+  }
